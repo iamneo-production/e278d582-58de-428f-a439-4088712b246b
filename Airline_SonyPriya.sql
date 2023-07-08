@@ -1,3 +1,4 @@
 select * from AIRLINE;
 
 SELECT COUNT(ID) FROM AIRLINE WHERE GENDER='Female';
+
