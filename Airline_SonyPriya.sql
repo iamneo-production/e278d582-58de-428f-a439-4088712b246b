@@ -12,4 +12,9 @@ SELECT COUNT(ID) AS Echo_Passenger FROM AIRLINE WHERE CLASS='Eco';
 SELECT COUNT(ID) AS Kid_count FROM AIRLINE WHERE AGE<13;
 
 --5. Write a sql query to count of passengers who are above the age 16 and have booked tickets in business class.
+<<<<<<< HEAD
 SELECT COUNT(ID) AS Adult_count FROM AIRLINE WHERE AGE>16 AND CLASS='Business';
+=======
+SELECT COUNT(ID) AS Adult_count FROM AIRLINE WHERE AGE>16 AND CLASS='Business';
+
+>>>>>>> 88b42d5a243c101d24e0050374a5438cd5c0c353
