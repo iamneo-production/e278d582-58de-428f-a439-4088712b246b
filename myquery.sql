@@ -1,5 +1,4 @@
 set timing on;
-
 --query to find no. of female passengers who booked air tickets
 select count(id) as Female_travellers from airline where gender='Female';
 
@@ -15,5 +14,5 @@ where Age<13;
 
 --query to find no. of passengers who are above 16 years and
 --booked business class
-select count(*) as Age_Passenger_Greater_Than_16 from airline
+select count(id) as Age_Passenger_Greater_Than_16 from airline
 where age>16 and class='Business';
