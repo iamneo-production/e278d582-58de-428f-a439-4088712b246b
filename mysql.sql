@@ -1,3 +1,5 @@
---query to find no. of female passengers who booked air tickets
-select count(id) as Female_travellers from airline where gender='Female';
+
+
+--query to find no. of passengers who booked air tickets in business class
+select count(id) as Business_class from airline where class='Business';
 
