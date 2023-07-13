@@ -1,5 +1,5 @@
 set timing on;
-create index fast on airline(s_id,id,gender,class,age);
+
 --query to find no. of female passengers who booked air tickets
 select count(*) as Female_travellers from airline where gender='Female';
 
