@@ -9,5 +9,3 @@ select count(*) as "Children count" from airline where age < 13;
 -- write a query to find the number who are bove 16 and travellng in business class
 select count(*) as "count of passengers above 16 and travelling in business class" from airline
 where age > 16 and class='Business';
-
-
