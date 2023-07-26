@@ -18,7 +18,7 @@ SELECT COUNT(ID) AS No_of_Childerns
 FROM AIRLINE
 WHERE AGE<13;
 
---Query
+--Query 5
 SELECT COUNT(ID) AS No_of_Adults
 FROM AIRLINE
 WHERE AGE>16 AND CLASS='Business'; 
