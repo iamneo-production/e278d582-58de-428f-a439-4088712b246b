@@ -11,5 +11,5 @@ select count(*) as Eco_class_passengers_count from airline where class='Eco';
 select count(*) as Children_count from airline where age < 13;
 
 -- write a query to find the number who are bove 16 and travellng in business class
-select count(*) as "count_of_passengers_above_16_and_travelling_in_business_class from airline
+select count(*) as count_of_passengers_above_16_and_travelling_in_business_class from airline
 where age > 16 and class='Business';
